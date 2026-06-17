@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1228 872" role="img" aria-label="PuLu AI">
+  <defs>
+    <linearGradient id="pulu-a" x1="213" y1="95" x2="1014" y2="777" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#30e7f2"/>
+      <stop offset=".45" stop-color="#2686f1"/>
+      <stop offset="1" stop-color="#5142df"/>
+    </linearGradient>
+    <linearGradient id="pulu-b" x1="465" y1="134" x2="712" y2="480" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#111b95"/>
+      <stop offset=".5" stop-color="#2565e9"/>
+      <stop offset="1" stop-color="#34e7f3"/>
+    </linearGradient>
+    <filter id="pulu-shadow" x="-5%" y="-8%" width="110%" height="116%">
+      <feDropShadow dx="0" dy="8" stdDeviation="10" flood-color="#071b75" flood-opacity=".38"/>
+    </filter>
+  </defs>
+  <g filter="url(#pulu-shadow)">
+    <path fill="url(#pulu-a)" d="M463 78h404c147 0 265 119 265 266v85c0 146-119 265-265 265H658c-35 0-68 18-87 48l-41 65c-23 36-78 19-77-24l57-226c19-76 87-129 165-129h137l-21 91c-6 26 25 43 45 26l141-122c21-18 21-51 0-69L837 232c-20-17-51-1-46 25l12 59H673c-56 0-105 37-121 91l-22 75c-12 40-49 67-91 67H283c-22 0-39-18-39-39s18-39 39-39h196c20 0 37-13 43-32l15-48H285c-21 0-39-17-39-39s18-39 39-39h96c28 0 53-18 62-44l23-69c13-38 49-64 89-64h-92c-21 0-38-17-38-38s17-39 38-39Z"/>
+    <path fill="url(#pulu-b)" d="M453 258h188c-42 7-78 37-90 79l-23 78c-13 45-55 76-102 76H278c-20 0-36-16-36-36s16-36 36-36h197c19 0 36-13 42-31l13-42H285c-20 0-36-16-36-36s16-36 36-36h93c26 0 50-17 58-42 3-8 9-14 17-14Z" opacity=".9"/>
+    <circle cx="184" cy="310" r="27" fill="#35dff0"/>
+    <circle cx="230" cy="421" r="23" fill="#2bc4ee"/>
+    <rect x="55" y="401" width="137" height="43" rx="22" fill="#35dff0"/>
+    <rect x="151" y="489" width="282" height="43" rx="22" fill="#35dff0"/>
+  </g>
+</svg>

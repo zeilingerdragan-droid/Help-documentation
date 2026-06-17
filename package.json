@@ -1,0 +1,23 @@
+{
+  "name": "pulu-ai-docs",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "dev": "vuepress dev src/docs --host 0.0.0.0 --port 8080",
+    "translate": "node scripts/translate-docs.mjs",
+    "build": "npm run translate && vuepress build src/docs --config vuepress.config.js --dest dist",
+    "deploy:local": "npm run build && rsync -a --delete --exclude '接入文档-语雀提取.docx' dist/ ./"
+  },
+  "devDependencies": {
+    "@vuepress/bundler-vite": "next",
+    "@vuepress/plugin-slimsearch": "next",
+    "sass-embedded": "^1.89.0",
+    "tencentcloud-sdk-nodejs": "^4.1.82",
+    "vuepress": "next",
+    "vuepress-theme-hope": "latest"
+  }
+}
